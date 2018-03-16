@@ -2,3 +2,49 @@
 
 // Imports
 @import 'base';
+
+body {
+    height: 100vh;
+}
+.container{
+    max-width:1200px;}
+.top-nav{
+    padding:1rem 0;
+    height:3.5rem;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:3;
+}
+
+.vert-wrap{
+    height:100vh;
+    padding:0;
+    .container, .columns{height:100%;}
+}
+
+.intro-text{
+    align-self:flex-end;
+    padding-bottom:5rem;
+
+    .tiny-text{color:#EAE5E5; font-weight:bold;}
+
+    h1{
+        font-size:4rem;
+        font-weight:bold;
+        letter-spacing:-.1rem;
+        span{font-weight:300; color:#EAE5E5}
+    }
+    h2.subtitle{
+
+    }
+}
+.landing-image {
+    height:100%; 
+    width:auto; 
+    background:url('../img/me.png') no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
