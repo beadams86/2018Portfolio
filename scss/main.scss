@@ -1,7 +1,6 @@
-// main.scss
-
 // Imports
 @import 'base';
+@import 'grid';
 
 html,body {
     height:100%;
@@ -51,7 +50,7 @@ section{
         line-height:1.1;
         margin-bottom:1rem;
         position:relative;
-        color:$dark-gray;
+        color:#fff;
 
         span{font-weight:300;}
         @media screen and (min-width: 75em){
@@ -111,6 +110,7 @@ section{
     position:relative;
     display:flex;
     align-items:center;
+    background:$secondary;
 }
 
 /* Portfolio */
@@ -141,7 +141,7 @@ section{
 
 
 .portfolio{
-    background:#f9f9f9;
+    background:#fff;
     .headline{
         padding:5rem;
         padding-left:4rem;
