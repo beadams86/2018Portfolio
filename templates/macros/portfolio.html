@@ -1,0 +1,21 @@
+
+
+{% macro project(id, bgcolor, pretitle, title, subtitle, img) %}
+
+    <div class="single-item {{ bgcolor }}" id="{{ id }}">
+        <!-- or ul.my-slider > li -->
+        <div class="row middle-sm">
+            <div class="col-sm-6">
+                    <div class="headline">
+                        <div class="tiny-text">{{ pretitle }}</div>
+                        <h1>{{ title }}</h1>
+                        <h5>{{ subtitle }}</h5>
+                        <a href="#" class="button button-minimal">Full Case Study</a>
+                    </div>
+            </div>
+            <div class="col-sm-6 floating-img">
+                <img src="{{img}}" class="portfolio-image">   
+            </div>
+        </div>
+    </div>
+{% endmacro %}

@@ -1,5 +1,5 @@
-// main.js
+    // main.js
 
-$(document).ready(function (){
-	console.log('document is ready bitch');
-});
+    //Adds overflow:visible; to siema carousel container
+    var carousel = document.querySelector(".siema");
+    carousel.style.overflow = 'visible';
