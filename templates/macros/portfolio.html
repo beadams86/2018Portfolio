@@ -1,20 +1,9 @@
 
 {% macro project(id,  pretitle, title, subtitle, img) %}
-<div class="single-item" id="{{ id }}">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                    <div class="headline">
-                        <div class="tiny-text">{{ pretitle }}</div>
-                        <h1>{{ title }}</h1>
-                        <h5>{{ subtitle }}</h5>
-                        <a href="#" class="button button-minimal">Full Case Study</a>
-                    </div>
-            </div>
-            <div class="col floating-img">
-                <img src="{{img}}" class="portfolio-image">   
-            </div>
-        </div>
+<div class="single-item" id="{{ id }}" style="background:url('{{img}}') no-repeat; background-size:cover;">
+    <div class="headline">
+        <div class="tiny-text">{{ pretitle }}</div>
+        <h3>{{ title }}</h3>
     </div>
 </div>
 {% endmacro %}
