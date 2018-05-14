@@ -284,34 +284,6 @@ h4 {
   }
 }
 
-.container {
-  margin: 0 auto;
-  padding-left:3rem;
-  padding-right:3rem;
-  display:block;
-  width:100%;
-}
-
-@media screen and (min-width: 62em){
-  .container {
-    padding-left:5rem;
-    padding-right:5rem;
-  }
-}
-@media screen and (min-width: 48em) and (max-width:61em){
-  .container{
-    padding-left:2rem;
-    padding-right:2rem;
-  }
-}
-@media screen and (max-width:47em){
-  .container{
-    padding-left:1.5rem;
-    padding-right:1.5rem;
-    width:100%;
-  }
-}
-
 .hidden{
   visibility:hidden;
 }

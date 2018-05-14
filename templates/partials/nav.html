@@ -1,9 +1,17 @@
 <nav class="top-nav">
     <div class="container">
-        <div class="nav-wrap">
-            <a href="#" class="nav-link">About</a>
-            <a href="#" class="nav-link">Portfolio</a>
-            <a href="#" class="nav-link">Contact</a>
+        <div class="desktop nav-wrap"> 
+            <a class="nav-link" href="{{ page.url }}/about.html">About</a>
+            <a class="nav-link" href="{{ page.url }}/about.html">Portfolio</a>
+            <a class="nav-link" href="{{ page.url }}/about.html">Contact</a>
+        </div>
+        <div class="nav-wrap mobile"> 
+            <a href="#" class="toggle-nav"><img src="img/burger.svg"></a>
+            <nav class="sub-nav-mobile">
+                <a class="nav-link" href="{{ page.url }}/about.html">About</a>
+                <a class="nav-link" href="{{ page.url }}/about.html">Portfolio</a>
+                <a class="nav-link" href="{{ page.url }}/about.html">Contact</a>
+            </nav>
         </div>
     </div>
 </nav>

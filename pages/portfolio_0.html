@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "partials/head.html" %}
+
+<body>
+
+  {% include "partials/nav.html" %}
+
+  {% block content %}
+  <section class="hero" style="height:500px;">
+      <div class="container">
+          <h1>Earth Science Data Archive Center Redesign</h1>
+      </div>
+  </section>
+  
+  <section>
+      <div class="container">
+          <h3>The problem: </h3>
+
+          <br>
+          <h3>Refining the Information Architecture</h3>
+          <img src="img/portfolio/LPDAAC/sticky_IA.jpg">
+      </div>
+  </section>
+  {% endblock %}
+
+  {% include "partials/end.html" %}
+
+</body>
+</html>

@@ -30,11 +30,13 @@
 
 {% block portfolio %}
 <section class="portfolio">
+    <h3>My Portfolio</h3>
     <div class="portfolio-scroll">
+        {{ project ('0', 'PORTFOLIO','Earth Science Data Archive Website Redesign', 'SPARGO, Inc. is an Event Management company that needed a refresh to their identity. I was the sole designer tasked with rebranding and redesigning everything from logo and signage to website and business cards.', 'img/portfolio/EarthScience_Card.png') }}
         {{ project ('1', 'PORTFOLIO','Medical Records Web and Mobile App', 'SPARGO, Inc. is an Event Management company that needed a refresh to their identity. I was the sole designer tasked with rebranding and redesigning everything from logo and signage to website and business cards.', 'img/portfolio/phrHero_Card.png') }}
         {{ project ('2', 'PORTFOLIO','Event Management Company Rebrand', 'SPARGO, Inc. is an Event Management company that needed a refresh to their identity. I was the sole designer tasked with rebranding and redesigning everything from logo and signage to website and business cards.', 'img/portfolio/SPARGO_Card.png') }}
         {{ project ('3', 'PORTFOLIO','Mobile App MVP Design & Development', 'A family tragedy led to the realization that there isn`t much assistance in getting your affairs in order. So my wife and I teamed up to prototype an app that would help solve this.', 'img/portfolio/LP_Card.png') }}
-        {{ project ('4', 'PORTFOLIO','Something Else again', 'SPARGO, Inc. is an Event Management company that needed a refresh to their identity. I was the sole designer tasked with rebranding and redesigning everything from logo and signage to website and business cards.', 'img/portfolio/SPARGO_Rebrand.png') }}
+        
     </div>
 </section>
 {% endblock %}
